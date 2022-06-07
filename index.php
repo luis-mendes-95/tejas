@@ -11,31 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header class="menu">
-        <div class="container">
-            <div class="menu-flex">
-                <div class="menu-column">
-                    <img src="/src/img/tejaslogowhite.png" alt="logo" class="logo">
-                    <nav class="menu-nav">
-                        <ul>
-                            <li><a href="/store.html">CAMISETAS</li></a>
-                            <li><a href="/store.html">GRÁFICA</li></a>
-                            <li><a href="/store.html">COMUNICAÇÃO VISUAL</li></a>
-                            <li><a href="/store.html">IDENTIDADE DIGITAL</li></a>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="menu-column menu-second-column">
-                    <a href="" class="menu-link-button">COMBOS</a>
-                </div>
-            </div>
-        </div>
-    </header>
+<body>    
+    <?php
+    include_once('/src/modules/headers/header.php')
+    ?>
     <main>
         <section class="portfolio">
             <div>
-
                 <div>
                     <div class="container pedido" id="divdopedido">
                         <h2>PEDIDO, ARTE, PRODUÇÃO E ENTREGA</h2>
