@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tejas Designs</title>
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/indexstyle.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>    
     <?php
-    include_once('/src/modules/headers/header.php')
+    include("src/modules/headers/header1/header.php");
+    include("src/modules/store/layout1/store.php");
+    include("src/modules/footers/footer1/footer.php");
     ?>
-    <main>
+    <main><!--
         <section class="portfolio">
             <div>
                 <div>
@@ -68,24 +69,7 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="footer_logo">
-            <img src="./src/img/tejaslogowhite.png" alt="Logo Tejas">
-            <div class="footer_dados">
-                <ul>
-                    <li><a href="">FACEBOOK</a></li>
-                    <li><a href="">INSTAGRAM</a></li>
-                    <li>R. João Bernadino Borges, 426 - Salinas, Balneário Barra do Sul/SC</li>
-                    <li><a href="">WHATSAPP</a></li>
-                    <li>47 999 66 05 15</li>
-                    <li>tejas@tejas.com.br</li>
-                </ul>
-            </div>
-        </div>
-        <div>
-            <span><br>Tejas Designs, 2022 - Realizando seus projetos</span>
-        </div>
-    </footer>
+ -->
 
     <script src="./src/js/script.js"></script>
 </body>
