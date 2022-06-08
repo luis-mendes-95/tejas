@@ -1,29 +1,206 @@
+/*CORPO DA PÁGINA*/
+/***************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Koulen&family=Roboto:wght@300;400&display=swap');
-
 * {
     margin: 0;
     padding: 0;
 }
+/***************************************************/
+/*CORPO DA PÁGINA*
+
+
+
+
+
+
 
 /***************************************************/
-/*CORPO DA PÁGINA*/
-/*CORPO DA PÁGINA*/
-/***************************************************/
-/***************************************************/
 /*HEADER*/
 /*HEADER*/
 /***************************************************/
+
+
+
+
+
+
+
 /***************************************************/
 /*MAIN - ÁREA PRIMÁRIA DO PORTFÓLIO*/
+@media(min-width: 1230px){
+    .title-blog{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: roboto;
+    }
+}
 /*MAIN - ÁREA PRIMÁRIA DO PORTFÓLIO*/
 /***************************************************/
+
+
+
+
+
+
+
 /***************************************************/
 /*UL - LISTA DE PRODUTOS*/
 /*UL - LISTA DE PRODUTOS*/
 /***************************************************/
+
+
+
+
+
+
+
 /***************************************************/
 /*LI - PRODUTO INDIVIDUAL*/
 /*LI - PRODUTO INDIVIDUAL*/
+/***************************************************/
+
+
+
+
+
+
+
+/***************************************************/
+/*LI - ÁREA PRIMÁRIA DO BLOG*/
+@media(min-width: 1230px){
+    .blog {
+        background-color: rgb(219, 219, 219);
+        padding: 20px 0 20px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: roboto;
+        width: 100%;
+        
+    }
+    .h1-title{
+        color:#e25e00;
+        text-shadow: 0px 1px 1px black;     
+    }
+    .aside-posts{
+        width: 30%;
+    }
+    .aside-title{
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+        color:#e25e00;
+        text-shadow: 0px 1px 1px black;
+    }
+    .individual-aside-post{
+        list-style: none;
+        display: column;
+    }
+    .aside-img{
+        height: 120px;
+        padding: 10px;
+        border-radius: 50%;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .aside-img:hover{
+        transform: scale(1.2);
+        transition: 0.3s;
+    }
+    .post-title{
+        font-size: 15pt;
+    }
+    .flexrow-aside{
+        display: flex;
+    }
+    .aside-post-title{
+        padding: 0 0 0 10px;
+        transition: 0.3s;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aside-post-title:hover{
+        padding: 0 0 0 10px;
+        color: #e25e00;
+        transition: 0.3s;
+    }
+}
+/*LI - ÁREA PRIMÁRIA DO BLOG*/
+/***************************************************/
+
+
+
+
+
+
+
+/***************************************************/
+/*LI - LISTA DO BLOG*/
+@media(min-width: 1230px){
+    .lista-blog {
+        background-color: rgb(219, 219, 219);
+        max-height: 2000px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+}
+}
+/*LI - LISTA DO BLOG*/
+/***************************************************/
+
+
+
+
+
+
+
+/***************************************************/
+/*LI - POST INDIVIDUAL*/
+@media(min-width: 1230px){
+    .individual-post {
+        font-family: roboto;
+        background-color: rgb(219, 219, 219);
+        cursor: pointer;
+        width: 350px;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 0px 20px 20px 20px;
+        padding: 15px 5px 5px 5px;
+        border-bottom: 1px solid orangered;
+    }     
+    .individual-post:hover{
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px black;
+    }
+    .post-img{
+        height: 250px;
+        border-radius: 10%;
+        box-shadow: 0 3px 2px 0;
+    }
+    .post-img:hover {
+        transform: scale(1.1);
+        transition: 0.8s;
+    }
+    .post-title{
+        padding-top: 23px;
+        transition: 0.3s;
+
+    }
+    .post-title:hover{
+        color: #e25e00;
+        transition: 0.3s;
+   
+    }
+
+    .post-description {
+        font-size: 15pt;
+        padding: 5px 5px 5px 5px;
+    }
+}
+/*LI - POST INDIVIDUAL*/
 /***************************************************/
 /***************************************************/
 
