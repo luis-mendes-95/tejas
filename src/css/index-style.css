@@ -202,8 +202,9 @@
 }
 .li-footer-options {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 2vw;
 }
 .li-footer-options > a {
     border-radius: 2vh;
@@ -226,19 +227,29 @@
 }
 #a-face-button{
     background-color: #3a5897;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #a-insta-button{
     background-color: #6f3ab9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #a-whats-button{
     background-color: #1d9b12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .img-tiny{
-    width: 5vw;
+    width: 10%;
+    height: 10%;
 }
 #li-adress-footer{
     display: flex;
-    gap: 1px;
+    gap: 2vw;
     text-align: center;
     width: 80%;
 }
