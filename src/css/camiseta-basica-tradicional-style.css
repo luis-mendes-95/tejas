@@ -91,7 +91,6 @@
     margin: 3vh auto;
     display: flex;
     gap: 2vw;
-    padding: 0 3vh 3vh 3vh;
     justify-content: space-around;
     width: 90%;
 }
@@ -175,6 +174,10 @@
 @media(min-width: 1200px){
     .div-product-pics{
         width: 50%;    
+    }
+    .img-product{
+        width: 18vw;
+     
     }
     #img-different-size-1{
         width: 25vw;
