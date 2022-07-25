@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.calculator{
+    padding: 2%;
+    background-color: orangered;
+    border-radius: 10%;
+    margin: auto;
+    width: 25%;
+    height: 65vh;
+}
