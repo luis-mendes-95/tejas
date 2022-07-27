@@ -119,10 +119,22 @@
 .th-table-status{
     background-color: black;
     color: green;
+    font-size: 15pt;
+    text-align: center;
+}
+.th-client-name{
+    font-size: 20pt;
 }
 td, th {
     padding-top: 10px;
 }
+.th-divider{
+    text-align: center;
+}
+.tr-th-client-name{
+    padding-top: 200px;
+}
+
 .span-obs-msg{
     padding: 2vh 0 2vh 0;
     text-align: center;
